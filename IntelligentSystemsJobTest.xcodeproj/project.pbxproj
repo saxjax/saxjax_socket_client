@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4D1023F28B04AF000C6B724 /* SaxjaxSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D1023E28B04AF000C6B724 /* SaxjaxSocketManager.swift */; };
+		E4D1024028B04AF000C6B724 /* SaxjaxSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D1023E28B04AF000C6B724 /* SaxjaxSocketManager.swift */; };
+		E4D1024328B0501300C6B724 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = E4D1024228B0501300C6B724 /* SocketIO */; };
+		E4DF722D28B394CB007F6570 /* main_socket.py in Resources */ = {isa = PBXBuildFile; fileRef = E4DF722628B394CB007F6570 /* main_socket.py */; };
+		E4DF722E28B394CB007F6570 /* main_socket.cpython-39.pyc in Resources */ = {isa = PBXBuildFile; fileRef = E4DF722828B394CB007F6570 /* main_socket.cpython-39.pyc */; };
+		E4DF722F28B394CB007F6570 /* main.cpython-39.pyc in Resources */ = {isa = PBXBuildFile; fileRef = E4DF722928B394CB007F6570 /* main.cpython-39.pyc */; };
+		E4DF723028B394CB007F6570 /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = E4DF722A28B394CB007F6570 /* main.py */; };
+		E4DF723128B394CB007F6570 /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = E4DF722C28B394CB007F6570 /* main.html */; };
+		E4DF723528B430A2007F6570 /* SocketProgrammingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF723428B430A1007F6570 /* SocketProgrammingUI.swift */; };
+		E4DF723628B430A2007F6570 /* SocketProgrammingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF723428B430A1007F6570 /* SocketProgrammingUI.swift */; };
+		E4DF723728B4326D007F6570 /* SaxjaxSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D1023E28B04AF000C6B724 /* SaxjaxSocketManager.swift */; };
+		E4DF723928B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF723828B43289007F6570 /* SaxjaxCoreDataManager.swift */; };
+		E4DF723A28B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF723828B43289007F6570 /* SaxjaxCoreDataManager.swift */; };
+		E4DF723B28B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF723828B43289007F6570 /* SaxjaxCoreDataManager.swift */; };
+		E4FA873128AFD05C00B5156A /* IntelligentSystemsJobTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA873028AFD05C00B5156A /* IntelligentSystemsJobTestApp.swift */; };
+		E4FA873328AFD05C00B5156A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA873228AFD05C00B5156A /* ContentView.swift */; };
+		E4FA873528AFD05E00B5156A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FA873428AFD05E00B5156A /* Assets.xcassets */; };
+		E4FA873828AFD05E00B5156A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FA873728AFD05E00B5156A /* Preview Assets.xcassets */; };
+		E4FA873A28AFD05E00B5156A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA873928AFD05E00B5156A /* Persistence.swift */; };
+		E4FA873D28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4FA873B28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodeld */; };
+		E4FA874728AFD05E00B5156A /* IntelligentSystemsJobTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA874628AFD05E00B5156A /* IntelligentSystemsJobTestTests.swift */; };
+		E4FA875128AFD05E00B5156A /* IntelligentSystemsJobTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA875028AFD05E00B5156A /* IntelligentSystemsJobTestUITests.swift */; };
+		E4FA875328AFD05E00B5156A /* IntelligentSystemsJobTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA875228AFD05E00B5156A /* IntelligentSystemsJobTestUITestsLaunchTests.swift */; };
+		E4FA876628AFD0E700B5156A /* TestThreadSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA876528AFD0E700B5156A /* TestThreadSafe.swift */; };
+		E4FA876828AFE08400B5156A /* NetworkSocketTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA876728AFE08400B5156A /* NetworkSocketTestSuite.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4FA874328AFD05E00B5156A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4FA872528AFD05C00B5156A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4FA872C28AFD05C00B5156A;
+			remoteInfo = IntelligentSystemsJobTest;
+		};
+		E4FA874D28AFD05E00B5156A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4FA872528AFD05C00B5156A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4FA872C28AFD05C00B5156A;
+			remoteInfo = IntelligentSystemsJobTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4D1023E28B04AF000C6B724 /* SaxjaxSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaxjaxSocketManager.swift; sourceTree = "<group>"; };
+		E4D1024428B0567900C6B724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E4DF722628B394CB007F6570 /* main_socket.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main_socket.py; sourceTree = "<group>"; };
+		E4DF722828B394CB007F6570 /* main_socket.cpython-39.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "main_socket.cpython-39.pyc"; sourceTree = "<group>"; };
+		E4DF722928B394CB007F6570 /* main.cpython-39.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "main.cpython-39.pyc"; sourceTree = "<group>"; };
+		E4DF722A28B394CB007F6570 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		E4DF722C28B394CB007F6570 /* main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
+		E4DF723428B430A1007F6570 /* SocketProgrammingUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketProgrammingUI.swift; sourceTree = "<group>"; };
+		E4DF723828B43289007F6570 /* SaxjaxCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaxjaxCoreDataManager.swift; sourceTree = "<group>"; };
+		E4FA872D28AFD05C00B5156A /* IntelligentSystemsJobTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelligentSystemsJobTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FA873028AFD05C00B5156A /* IntelligentSystemsJobTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentSystemsJobTestApp.swift; sourceTree = "<group>"; };
+		E4FA873228AFD05C00B5156A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4FA873428AFD05E00B5156A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4FA873728AFD05E00B5156A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4FA873928AFD05E00B5156A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E4FA873C28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntelligentSystemsJobTest.xcdatamodel; sourceTree = "<group>"; };
+		E4FA874228AFD05E00B5156A /* IntelligentSystemsJobTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentSystemsJobTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FA874628AFD05E00B5156A /* IntelligentSystemsJobTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentSystemsJobTestTests.swift; sourceTree = "<group>"; };
+		E4FA874C28AFD05E00B5156A /* IntelligentSystemsJobTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentSystemsJobTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FA875028AFD05E00B5156A /* IntelligentSystemsJobTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentSystemsJobTestUITests.swift; sourceTree = "<group>"; };
+		E4FA875228AFD05E00B5156A /* IntelligentSystemsJobTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentSystemsJobTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4FA876528AFD0E700B5156A /* TestThreadSafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThreadSafe.swift; sourceTree = "<group>"; };
+		E4FA876728AFE08400B5156A /* NetworkSocketTestSuite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSocketTestSuite.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4FA872A28AFD05C00B5156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D1024328B0501300C6B724 /* SocketIO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA873F28AFD05E00B5156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA874928AFD05E00B5156A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4D1023D28B04ACE00C6B724 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA873028AFD05C00B5156A /* IntelligentSystemsJobTestApp.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E4DF722528B3949E007F6570 /* External flask server */ = {
+			isa = PBXGroup;
+			children = (
+				E4DF722728B394CB007F6570 /* __pycache__ */,
+				E4DF722628B394CB007F6570 /* main_socket.py */,
+				E4DF722A28B394CB007F6570 /* main.py */,
+				E4DF722B28B394CB007F6570 /* templates */,
+			);
+			path = "External flask server";
+			sourceTree = "<group>";
+		};
+		E4DF722728B394CB007F6570 /* __pycache__ */ = {
+			isa = PBXGroup;
+			children = (
+				E4DF722828B394CB007F6570 /* main_socket.cpython-39.pyc */,
+				E4DF722928B394CB007F6570 /* main.cpython-39.pyc */,
+			);
+			path = __pycache__;
+			sourceTree = "<group>";
+		};
+		E4DF722B28B394CB007F6570 /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				E4DF722C28B394CB007F6570 /* main.html */,
+			);
+			path = templates;
+			sourceTree = "<group>";
+		};
+		E4FA872428AFD05C00B5156A = {
+			isa = PBXGroup;
+			children = (
+				E4FA872F28AFD05C00B5156A /* IntelligentSystemsJobTest */,
+				E4FA874528AFD05E00B5156A /* IntelligentSystemsJobTestTests */,
+				E4FA874F28AFD05E00B5156A /* IntelligentSystemsJobTestUITests */,
+				E4FA872E28AFD05C00B5156A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4FA872E28AFD05C00B5156A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA872D28AFD05C00B5156A /* IntelligentSystemsJobTest.app */,
+				E4FA874228AFD05E00B5156A /* IntelligentSystemsJobTestTests.xctest */,
+				E4FA874C28AFD05E00B5156A /* IntelligentSystemsJobTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4FA872F28AFD05C00B5156A /* IntelligentSystemsJobTest */ = {
+			isa = PBXGroup;
+			children = (
+				E4DF722528B3949E007F6570 /* External flask server */,
+				E4D1024428B0567900C6B724 /* Info.plist */,
+				E4FA876328AFD0A400B5156A /* Views */,
+				E4FA876428AFD0B000B5156A /* Models */,
+				E4D1023D28B04ACE00C6B724 /* Controllers */,
+				E4FA873428AFD05E00B5156A /* Assets.xcassets */,
+				E4FA873928AFD05E00B5156A /* Persistence.swift */,
+				E4FA873B28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodeld */,
+				E4FA873628AFD05E00B5156A /* Preview Content */,
+			);
+			path = IntelligentSystemsJobTest;
+			sourceTree = "<group>";
+		};
+		E4FA873628AFD05E00B5156A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA873728AFD05E00B5156A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4FA874528AFD05E00B5156A /* IntelligentSystemsJobTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA874628AFD05E00B5156A /* IntelligentSystemsJobTestTests.swift */,
+				E4FA876528AFD0E700B5156A /* TestThreadSafe.swift */,
+				E4FA876728AFE08400B5156A /* NetworkSocketTestSuite.swift */,
+			);
+			path = IntelligentSystemsJobTestTests;
+			sourceTree = "<group>";
+		};
+		E4FA874F28AFD05E00B5156A /* IntelligentSystemsJobTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA875028AFD05E00B5156A /* IntelligentSystemsJobTestUITests.swift */,
+				E4FA875228AFD05E00B5156A /* IntelligentSystemsJobTestUITestsLaunchTests.swift */,
+			);
+			path = IntelligentSystemsJobTestUITests;
+			sourceTree = "<group>";
+		};
+		E4FA876328AFD0A400B5156A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4FA873228AFD05C00B5156A /* ContentView.swift */,
+				E4DF723428B430A1007F6570 /* SocketProgrammingUI.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4FA876428AFD0B000B5156A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1023E28B04AF000C6B724 /* SaxjaxSocketManager.swift */,
+				E4DF723828B43289007F6570 /* SaxjaxCoreDataManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4FA872C28AFD05C00B5156A /* IntelligentSystemsJobTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FA875628AFD05E00B5156A /* Build configuration list for PBXNativeTarget "IntelligentSystemsJobTest" */;
+			buildPhases = (
+				E4FA872928AFD05C00B5156A /* Sources */,
+				E4FA872A28AFD05C00B5156A /* Frameworks */,
+				E4FA872B28AFD05C00B5156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelligentSystemsJobTest;
+			packageProductDependencies = (
+				E4D1024228B0501300C6B724 /* SocketIO */,
+			);
+			productName = IntelligentSystemsJobTest;
+			productReference = E4FA872D28AFD05C00B5156A /* IntelligentSystemsJobTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4FA874128AFD05E00B5156A /* IntelligentSystemsJobTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FA875928AFD05E00B5156A /* Build configuration list for PBXNativeTarget "IntelligentSystemsJobTestTests" */;
+			buildPhases = (
+				E4FA873E28AFD05E00B5156A /* Sources */,
+				E4FA873F28AFD05E00B5156A /* Frameworks */,
+				E4FA874028AFD05E00B5156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4FA874428AFD05E00B5156A /* PBXTargetDependency */,
+			);
+			name = IntelligentSystemsJobTestTests;
+			productName = IntelligentSystemsJobTestTests;
+			productReference = E4FA874228AFD05E00B5156A /* IntelligentSystemsJobTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4FA874B28AFD05E00B5156A /* IntelligentSystemsJobTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4FA875C28AFD05E00B5156A /* Build configuration list for PBXNativeTarget "IntelligentSystemsJobTestUITests" */;
+			buildPhases = (
+				E4FA874828AFD05E00B5156A /* Sources */,
+				E4FA874928AFD05E00B5156A /* Frameworks */,
+				E4FA874A28AFD05E00B5156A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4FA874E28AFD05E00B5156A /* PBXTargetDependency */,
+			);
+			name = IntelligentSystemsJobTestUITests;
+			productName = IntelligentSystemsJobTestUITests;
+			productReference = E4FA874C28AFD05E00B5156A /* IntelligentSystemsJobTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4FA872528AFD05C00B5156A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E4FA872C28AFD05C00B5156A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E4FA874128AFD05E00B5156A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E4FA872C28AFD05C00B5156A;
+					};
+					E4FA874B28AFD05E00B5156A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E4FA872C28AFD05C00B5156A;
+					};
+				};
+			};
+			buildConfigurationList = E4FA872828AFD05C00B5156A /* Build configuration list for PBXProject "IntelligentSystemsJobTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4FA872428AFD05C00B5156A;
+			packageReferences = (
+				E4D1024128B0501300C6B724 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */,
+			);
+			productRefGroup = E4FA872E28AFD05C00B5156A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4FA872C28AFD05C00B5156A /* IntelligentSystemsJobTest */,
+				E4FA874128AFD05E00B5156A /* IntelligentSystemsJobTestTests */,
+				E4FA874B28AFD05E00B5156A /* IntelligentSystemsJobTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4FA872B28AFD05C00B5156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DF722D28B394CB007F6570 /* main_socket.py in Resources */,
+				E4DF722E28B394CB007F6570 /* main_socket.cpython-39.pyc in Resources */,
+				E4DF723128B394CB007F6570 /* main.html in Resources */,
+				E4FA873828AFD05E00B5156A /* Preview Assets.xcassets in Resources */,
+				E4DF723028B394CB007F6570 /* main.py in Resources */,
+				E4FA873528AFD05E00B5156A /* Assets.xcassets in Resources */,
+				E4DF722F28B394CB007F6570 /* main.cpython-39.pyc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA874028AFD05E00B5156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA874A28AFD05E00B5156A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4FA872928AFD05C00B5156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FA873D28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodeld in Sources */,
+				E4D1023F28B04AF000C6B724 /* SaxjaxSocketManager.swift in Sources */,
+				E4FA873A28AFD05E00B5156A /* Persistence.swift in Sources */,
+				E4DF723928B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */,
+				E4DF723528B430A2007F6570 /* SocketProgrammingUI.swift in Sources */,
+				E4FA873328AFD05C00B5156A /* ContentView.swift in Sources */,
+				E4FA873128AFD05C00B5156A /* IntelligentSystemsJobTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA873E28AFD05E00B5156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FA876828AFE08400B5156A /* NetworkSocketTestSuite.swift in Sources */,
+				E4FA876628AFD0E700B5156A /* TestThreadSafe.swift in Sources */,
+				E4D1024028B04AF000C6B724 /* SaxjaxSocketManager.swift in Sources */,
+				E4DF723A28B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */,
+				E4FA874728AFD05E00B5156A /* IntelligentSystemsJobTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA874828AFD05E00B5156A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DF723728B4326D007F6570 /* SaxjaxSocketManager.swift in Sources */,
+				E4FA875128AFD05E00B5156A /* IntelligentSystemsJobTestUITests.swift in Sources */,
+				E4DF723B28B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */,
+				E4DF723628B430A2007F6570 /* SocketProgrammingUI.swift in Sources */,
+				E4FA875328AFD05E00B5156A /* IntelligentSystemsJobTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4FA874428AFD05E00B5156A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4FA872C28AFD05C00B5156A /* IntelligentSystemsJobTest */;
+			targetProxy = E4FA874328AFD05E00B5156A /* PBXContainerItemProxy */;
+		};
+		E4FA874E28AFD05E00B5156A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4FA872C28AFD05C00B5156A /* IntelligentSystemsJobTest */;
+			targetProxy = E4FA874D28AFD05E00B5156A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4FA875428AFD05E00B5156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4FA875528AFD05E00B5156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4FA875728AFD05E00B5156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IntelligentSystemsJobTest/Preview Content\"";
+				DEVELOPMENT_TEAM = LW5S74625G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntelligentSystemsJobTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.IntelligentSystemsJobTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4FA875828AFD05E00B5156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IntelligentSystemsJobTest/Preview Content\"";
+				DEVELOPMENT_TEAM = LW5S74625G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntelligentSystemsJobTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.IntelligentSystemsJobTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4FA875A28AFD05E00B5156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.IntelligentSystemsJobTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelligentSystemsJobTest.app/IntelligentSystemsJobTest";
+			};
+			name = Debug;
+		};
+		E4FA875B28AFD05E00B5156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.IntelligentSystemsJobTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelligentSystemsJobTest.app/IntelligentSystemsJobTest";
+			};
+			name = Release;
+		};
+		E4FA875D28AFD05E00B5156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.IntelligentSystemsJobTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntelligentSystemsJobTest;
+			};
+			name = Debug;
+		};
+		E4FA875E28AFD05E00B5156A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5S74625G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dk.saxjax.IntelligentSystemsJobTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntelligentSystemsJobTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4FA872828AFD05C00B5156A /* Build configuration list for PBXProject "IntelligentSystemsJobTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FA875428AFD05E00B5156A /* Debug */,
+				E4FA875528AFD05E00B5156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FA875628AFD05E00B5156A /* Build configuration list for PBXNativeTarget "IntelligentSystemsJobTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FA875728AFD05E00B5156A /* Debug */,
+				E4FA875828AFD05E00B5156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FA875928AFD05E00B5156A /* Build configuration list for PBXNativeTarget "IntelligentSystemsJobTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FA875A28AFD05E00B5156A /* Debug */,
+				E4FA875B28AFD05E00B5156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4FA875C28AFD05E00B5156A /* Build configuration list for PBXNativeTarget "IntelligentSystemsJobTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FA875D28AFD05E00B5156A /* Debug */,
+				E4FA875E28AFD05E00B5156A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E4D1024128B0501300C6B724 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 16.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4D1024228B0501300C6B724 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4D1024128B0501300C6B724 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E4FA873B28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4FA873C28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodel */,
+			);
+			currentVersion = E4FA873C28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodel */;
+			path = IntelligentSystemsJobTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E4FA872528AFD05C00B5156A /* Project object */;
+}
