@@ -18,19 +18,13 @@
 		E4DF723528B430A2007F6570 /* SocketProgrammingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF723428B430A1007F6570 /* SocketProgrammingUI.swift */; };
 		E4DF723628B430A2007F6570 /* SocketProgrammingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF723428B430A1007F6570 /* SocketProgrammingUI.swift */; };
 		E4DF723728B4326D007F6570 /* SaxjaxSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D1023E28B04AF000C6B724 /* SaxjaxSocketManager.swift */; };
-		E4DF723928B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF723828B43289007F6570 /* SaxjaxCoreDataManager.swift */; };
-		E4DF723A28B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF723828B43289007F6570 /* SaxjaxCoreDataManager.swift */; };
-		E4DF723B28B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DF723828B43289007F6570 /* SaxjaxCoreDataManager.swift */; };
 		E4FA873128AFD05C00B5156A /* IntelligentSystemsJobTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA873028AFD05C00B5156A /* IntelligentSystemsJobTestApp.swift */; };
 		E4FA873328AFD05C00B5156A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA873228AFD05C00B5156A /* ContentView.swift */; };
 		E4FA873528AFD05E00B5156A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FA873428AFD05E00B5156A /* Assets.xcassets */; };
 		E4FA873828AFD05E00B5156A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FA873728AFD05E00B5156A /* Preview Assets.xcassets */; };
-		E4FA873A28AFD05E00B5156A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA873928AFD05E00B5156A /* Persistence.swift */; };
-		E4FA873D28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4FA873B28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodeld */; };
 		E4FA874728AFD05E00B5156A /* IntelligentSystemsJobTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA874628AFD05E00B5156A /* IntelligentSystemsJobTestTests.swift */; };
 		E4FA875128AFD05E00B5156A /* IntelligentSystemsJobTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA875028AFD05E00B5156A /* IntelligentSystemsJobTestUITests.swift */; };
 		E4FA875328AFD05E00B5156A /* IntelligentSystemsJobTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA875228AFD05E00B5156A /* IntelligentSystemsJobTestUITestsLaunchTests.swift */; };
-		E4FA876628AFD0E700B5156A /* TestThreadSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA876528AFD0E700B5156A /* TestThreadSafe.swift */; };
 		E4FA876828AFE08400B5156A /* NetworkSocketTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FA876728AFE08400B5156A /* NetworkSocketTestSuite.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,20 +54,16 @@
 		E4DF722A28B394CB007F6570 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 		E4DF722C28B394CB007F6570 /* main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
 		E4DF723428B430A1007F6570 /* SocketProgrammingUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketProgrammingUI.swift; sourceTree = "<group>"; };
-		E4DF723828B43289007F6570 /* SaxjaxCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaxjaxCoreDataManager.swift; sourceTree = "<group>"; };
 		E4FA872D28AFD05C00B5156A /* IntelligentSystemsJobTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelligentSystemsJobTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FA873028AFD05C00B5156A /* IntelligentSystemsJobTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentSystemsJobTestApp.swift; sourceTree = "<group>"; };
 		E4FA873228AFD05C00B5156A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4FA873428AFD05E00B5156A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4FA873728AFD05E00B5156A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E4FA873928AFD05E00B5156A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		E4FA873C28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntelligentSystemsJobTest.xcdatamodel; sourceTree = "<group>"; };
 		E4FA874228AFD05E00B5156A /* IntelligentSystemsJobTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentSystemsJobTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FA874628AFD05E00B5156A /* IntelligentSystemsJobTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentSystemsJobTestTests.swift; sourceTree = "<group>"; };
 		E4FA874C28AFD05E00B5156A /* IntelligentSystemsJobTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentSystemsJobTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FA875028AFD05E00B5156A /* IntelligentSystemsJobTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentSystemsJobTestUITests.swift; sourceTree = "<group>"; };
 		E4FA875228AFD05E00B5156A /* IntelligentSystemsJobTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentSystemsJobTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E4FA876528AFD0E700B5156A /* TestThreadSafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestThreadSafe.swift; sourceTree = "<group>"; };
 		E4FA876728AFE08400B5156A /* NetworkSocketTestSuite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSocketTestSuite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,8 +158,6 @@
 				E4FA876428AFD0B000B5156A /* Models */,
 				E4D1023D28B04ACE00C6B724 /* Controllers */,
 				E4FA873428AFD05E00B5156A /* Assets.xcassets */,
-				E4FA873928AFD05E00B5156A /* Persistence.swift */,
-				E4FA873B28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodeld */,
 				E4FA873628AFD05E00B5156A /* Preview Content */,
 			);
 			path = IntelligentSystemsJobTest;
@@ -187,7 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				E4FA874628AFD05E00B5156A /* IntelligentSystemsJobTestTests.swift */,
-				E4FA876528AFD0E700B5156A /* TestThreadSafe.swift */,
 				E4FA876728AFE08400B5156A /* NetworkSocketTestSuite.swift */,
 			);
 			path = IntelligentSystemsJobTestTests;
@@ -215,7 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				E4D1023E28B04AF000C6B724 /* SaxjaxSocketManager.swift */,
-				E4DF723828B43289007F6570 /* SaxjaxCoreDataManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -361,10 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4FA873D28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodeld in Sources */,
 				E4D1023F28B04AF000C6B724 /* SaxjaxSocketManager.swift in Sources */,
-				E4FA873A28AFD05E00B5156A /* Persistence.swift in Sources */,
-				E4DF723928B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */,
 				E4DF723528B430A2007F6570 /* SocketProgrammingUI.swift in Sources */,
 				E4FA873328AFD05C00B5156A /* ContentView.swift in Sources */,
 				E4FA873128AFD05C00B5156A /* IntelligentSystemsJobTestApp.swift in Sources */,
@@ -376,9 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4FA876828AFE08400B5156A /* NetworkSocketTestSuite.swift in Sources */,
-				E4FA876628AFD0E700B5156A /* TestThreadSafe.swift in Sources */,
 				E4D1024028B04AF000C6B724 /* SaxjaxSocketManager.swift in Sources */,
-				E4DF723A28B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */,
 				E4FA874728AFD05E00B5156A /* IntelligentSystemsJobTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,7 +370,6 @@
 			files = (
 				E4DF723728B4326D007F6570 /* SaxjaxSocketManager.swift in Sources */,
 				E4FA875128AFD05E00B5156A /* IntelligentSystemsJobTestUITests.swift in Sources */,
-				E4DF723B28B43289007F6570 /* SaxjaxCoreDataManager.swift in Sources */,
 				E4DF723628B430A2007F6570 /* SocketProgrammingUI.swift in Sources */,
 				E4FA875328AFD05E00B5156A /* IntelligentSystemsJobTestUITestsLaunchTests.swift in Sources */,
 			);
@@ -720,19 +700,6 @@
 			productName = SocketIO;
 		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		E4FA873B28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E4FA873C28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodel */,
-			);
-			currentVersion = E4FA873C28AFD05E00B5156A /* IntelligentSystemsJobTest.xcdatamodel */;
-			path = IntelligentSystemsJobTest.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E4FA872528AFD05C00B5156A /* Project object */;
 }
